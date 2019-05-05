@@ -1,0 +1,65 @@
+﻿
+body {
+  margin: 0;
+	height: 737px;
+}
+
+.header {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color:#000099;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: #000099;
+    color: white;
+}
+
+.column {
+    float: left;
+    padding: 10px;
+}
+
+.column.side {
+    width: 80%;
+	height: 5px;
+}
+
+.column.middle {
+    width: 104%;
+	height: 847px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media (max-width: 600px) {
+    .column.side, .column.middle {
+        width: 100%;
+    }
+}
+
+.footer {
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+	height: 324px;
+}
+
